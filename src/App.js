@@ -31,7 +31,7 @@ function App() {
           <h2>Our Programs</h2>
           <div className="Programs-grid">
             {[
-              "🎓 Playschool & Pre-Primary Education",
+              "🎓 Playschool & Pre-Primary Education (Nursery - 5th)",
               "📚 Tuitions (Nursery - 10th)",
               "💃 Dance (Kuchipudi & Western)",
               "🎸 Music (Guitar & Keyboard)",
@@ -53,8 +53,8 @@ function App() {
           📞 Contact us: 83284 15068 | 99632 55300
         </p>
         <p className="School-address">
-            12-1-532/5, Beside Vijaya Diagnostic Centre Lane, Ramananda Nagar Colony,<br />
-            Road No. 1, Bandlaguda ,Nagole, Hyderabad, Telangana 500068
+            12-1-532/5,  Road No. 1, Ramananda Nagar Colony,
+            ,Bandlaguda ,Nagole, Hyderabad, Telangana 500068
           </p>
       </footer>
     </div>
