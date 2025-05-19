@@ -1,0 +1,151 @@
+/* General Styles */
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Header */
+.School-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Adjusted to space items */
+  align-items: center;
+  padding: 20px;
+  background-color: #8d0c5c;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.School-logo-container {
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.School-logo {
+  width: 120px;
+  height: auto;
+  border-radius: 10px 10px 50px 10px;
+}
+
+/* Header Text */
+.School-text {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.School-title {
+  font-size: 50px; /* Increased font size */
+  font-weight: bold;
+  color: #ffcc00;
+  text-shadow: 2px 2px 4px rgba(242, 247, 95, 0.5);
+  margin: 5px 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Manifest', 'Trebuchet MS', Arial, sans-serif;
+}
+
+/* Address in Header */
+.School-address {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Body Section */
+.School-body {
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+}
+.School-intro {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.School-programs {
+  font-size: 24px;
+  color: #72155c;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+/* Programs Grid */
+.Programs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Program Cards */
+.Program-card {
+  background:#e848b5;
+  color: white;
+  padding: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  
+}
+
+.Program-card:hover {
+  transform: scale(1.03);
+}
+
+/* Footer */
+.School-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #72155c;
+  color: white;
+  font-weight: bold;
+}
+
+/* Contact Info */
+.School-contact {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Learn More Button */
+.School-link {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: #8e3979;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.School-link:hover {
+  background-color: #590246;
+  transform: scale(1.05);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .School-title {
+    font-size: 35px;
+  }
+
+  .Program-card {
+    font-size: 16px;
+  }
+
+  .School-contact {
+    font-size: 16px;
+  }
+}
